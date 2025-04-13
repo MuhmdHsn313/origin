@@ -1,0 +1,51 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go build files
+*.test
+*.out
+
+# Build output directories
+/bin/
+/build/
+/dist/
+
+# Code coverage reports
+coverage.out
+
+# Go modules
+# If you want to check in your vendor directory (optional), remove the following line.
+vendor/
+
+# Dependency directories (remove if you are using Go modules)
+Godeps/
+
+# Go workspace file (if using a workspace)
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor directories and settings
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary files and directories
+tmp/
+temp/
+*.swp
+*.swo
+
+# Other file types to ignore (optional/customize as needed)
+*.bak
+*.old
